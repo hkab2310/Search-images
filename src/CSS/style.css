@@ -1,0 +1,94 @@
+
+.App{
+    padding:auto;
+    padding-top: 10vh;
+    background-color: rgb(229, 229, 229);
+    height: 100%;
+}
+
+.Header{
+    margin: auto;
+    width: 70vw;
+    /* background-color: antiquewhite; */
+}
+
+.Header>p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 36px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.Header>a{
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    height: 40px;
+    float: right;
+    background-color: gray;
+    color: white;
+}
+
+.form-cont{
+    margin: auto;
+    margin-top: 25px;
+    width: 70vw;
+}
+
+form>#search-query{
+    width: 55vw;
+    margin-left: 5px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+form>button{
+    font-size: 20px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    float: right;
+    background-color: black;
+    color: white;
+    /* height: 20px; */
+    /* width: 50px; */
+    border-radius: 5px;
+}
+
+.search-result{
+    margin: auto;
+    width: 70vw;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height:70vh;
+    flex-wrap: wrap;
+}
+
+.search-result>.img-con{
+    width: 22vw;
+    /* height:22vh; */
+    margin-top:0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.img-con>img{
+    /* max-height: 100%; */
+    max-width: 100%;
+    /* position: absolute; */
+}
+
+.bookmark-btn{
+    z-index: 100;
+    position: absolute;
+    top: 100px;
+    display: none;
+    /* bottom: 100px; */
+}
+
+.img-con:hover{
+    filter: blur();
+}
